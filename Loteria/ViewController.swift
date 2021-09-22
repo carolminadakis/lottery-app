@@ -41,7 +41,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //para que o jogo comece já com os números aleatórios para mega-sena
+        showNumbers(for: .megasena)
     }
 
     func showNumbers(for type: GameType) {
